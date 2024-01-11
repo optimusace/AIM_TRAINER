@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.gameBox{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.stats{
+    height: 100px;
+    border-bottom: 1px solid blue;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(209, 209, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.middleContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aimTrainer{
+    font-size: 30px;
+}
+.timer{
+    font-size: 20px;
+}
+.stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.stat #title{
+    font-size: 20px;
+}
+.stat .value{
+    background-color: gainsboro;
+    height:50px;
+    width: 50px;
+    margin-left: 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.aims{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aims .aim{
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 5px;
+    line-height: 60px;
+    background-color: rgb(42, 42, 97);
+    color: white;
+    border-radius: 50%;
+}
