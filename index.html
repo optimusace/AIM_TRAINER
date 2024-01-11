@@ -9,7 +9,11 @@
 </head>
 <body>
     <div class="content">
-        <div class="gameBox">
+        <div id="initialDisplay">
+            <p class="game-title">AIM TRAINER</p>
+            <button class="play-button" id="play-button">START</button>
+        </div>
+        <div id="gameBox">
             <div class="stats" id="stats">
                 <!-- contains hit value, score -->
                 <div class="stat hit">
@@ -22,14 +26,18 @@
                 </div>
                 <div class="stat score">
                     <p id="title">SCORE</p>
-                    <p id="scoreValue" class="value"></p>
+                    <p id="currentScore" class="value"></p>
                 </div>
             </div>
-            <div class="aims" id="aims">
-            </div>
+            <div class="aims" id="aims"></div>
         </div>
-        <div id="displayScore">
-            
+        <div id="display-final-score">
+            <div class="display-final-score">
+                <p class="game-over">!!! GAME OVER !!!</p>
+                <p class="score-title">Total Score</p>
+                <p id="final-score"></p>
+                <button id="play-again-button" class="play-button">START AGAIN</button>
+            </div>
         </div>
     </div>
 </body>
